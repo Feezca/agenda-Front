@@ -1,0 +1,6 @@
+<div class="container">
+    <img class="fotoPerfil" *ngIf="contact.profileImg" src={{contact.profileImg}} alt="">
+    <div class="fotoPerfilOpcional"  *ngIf="!contact.profileImg">
+        <span >{{contact.nombre[0]}}{{contact.apellido[0]}}</span>
+    </div>
+</div>

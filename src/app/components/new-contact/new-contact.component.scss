@@ -1,0 +1,15 @@
+@use "../../../assets/styles/forms.scss";
+
+.container{
+    margin-top: 10px;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    font-size: .7rem;
+    width: 90%;
+    margin: 10px 4px;
+    font-family: inherit;
+}

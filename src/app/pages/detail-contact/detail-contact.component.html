@@ -1,0 +1,12 @@
+<section class="container">
+    <div class="card">a</div>
+    <div class="profileImg"><img src="{{contact.profileImg}}" alt="Foto"></div>
+    <div class="card2">
+        <p class="name">{{contact.nombre}} {{contact.apellido}}</p>
+        <p class="phone">{{contact.telefono}}</p>
+        <p class="sec">{{contact.direccion}}</p>
+        <p class="sec">{{contact.email}}</p>
+        <p class="sec">{{contact.empresa}}</p>
+    </div>
+    <button class="btn" (click)="deleteContact()">Borrar</button>
+</section>

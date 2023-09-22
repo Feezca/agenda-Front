@@ -1,0 +1,49 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 15vh;
+    margin: 5px;
+    align-items: center;
+    &:hover{
+        background:#e2dde2;
+        transition: .5s;
+        cursor: pointer;
+    }
+    app-icon-contact{
+        width: 4vw;
+    }
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;    
+    width: 20%;
+
+}
+.dato{
+    font-size: .9rem;
+    display: flex;
+}
+.datoSec{
+    font-size: .6rem;
+    color:hsl(203, 15%, 47%);
+}
+.datoTel{
+    font-size: 1rem;
+}
+.cell img{
+    width: 1rem;
+}

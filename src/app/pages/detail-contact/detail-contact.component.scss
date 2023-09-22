@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items: center;
+    width:30vw;
+    margin: auto;
+    height: 70vh;   
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.1);
+}
+.card{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+    background: rgb(2,0,36);
+    background: linear-gradient(161deg, rgba(2,0,36,1) 0%, rgba(81,43,129,1) 45%, rgba(169,42,204,1) 100%);
+    height: 40%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card2{
+    height: 60%;
+    background-color: #ededed;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+img{
+    position: absolute;
+    margin: 0;
+    z-index: 200;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background: #000;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+    border: 4px solid #ededed;
+    @media(width < 650px){
+        width: 17vw;
+        height:15vh;
+    }
+}
+
+
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 10vh;
+    color:hsl(207, 57%, 15%)
+}
+.phone{
+    font-size: .8rem;
+    color:hsl(201, 23%, 34%)
+}
+.sec{
+    font-size: .7rem;
+    color:hsl(203, 15%, 47%)
+}
+.btn{
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(161deg, rgba(2,0,36,1) 0%, rgba(81,43,129,1) 45%, rgba(169,42,204,1) 100%);
+    font-size: 1.2rem;
+    color: #ededed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}

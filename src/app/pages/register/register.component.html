@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="form createUser">
+        <h2>Nuevo Usuario</h2>
+        <form action="">
+            <div class="form-item">
+                <input type="text" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-item">
+                <input type="email" placeholder="Email">
+            </div>  
+            <div class="form-item">
+                <input type="password" placeholder="Contraseña">
+            </div>  
+            <div class="form-item">
+                <button><a class="registrarme" [routerLink]="['#']">Registrarme</a></button>
+                <p><a [routerLink]="['']">Ya tengo cuenta!<span class="arrow">→</span></a></p>
+            </div>
+        </form>
+    </div>
+        <div class="form right slide-right">
+            <img class="logoForm" src="../../../assets/icons/gitlab.svg" alt="">
+        </div>
+</div>

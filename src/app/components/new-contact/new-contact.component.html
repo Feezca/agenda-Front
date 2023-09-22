@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="form createUser">
+        <h2>Nuevo contacto</h2>
+        <form form="ngForm"  action="" (ngSubmit)="create()">
+            <div class="form-item">
+                <input [(ngModel)]="newContact.nombre" type="text" placeholder="Nombre" name="nombre">
+            </div>
+            <div class="form-item">
+                <input [(ngModel)]="newContact.apellido" name="apellido" type="text" placeholder="Apellido">
+            </div>
+            <div class="form-item">
+                <input [(ngModel)]="newContact.direccion" type="text" name="direccion" placeholder="Dirección">
+            </div>
+            <div class="form-item">
+                <input [(ngModel)]="newContact.email" name="email" type="email" placeholder="email">
+            </div>
+            <div class="form-item">
+                <input [(ngModel)]="newContact.telefono" name="telefono" type="text" placeholder="Teléfono">
+            </div>
+            <div class="form-item">
+                <input [(ngModel)]="newContact.empresa" name="empresa" type="text" placeholder="Empresa">
+            </div>
+            <div class="options">
+                <button class="btn" type="submit" (click)="create()">Agregar</button>
+                <button class="btn" type="button" (click)="cerrar.emit()">Cancelar</button>
+            </div>
+        </form>
+    </div>
+        <div class="form right slide-right">
+            <img class="logoForm" src="../../../assets/icons/gitlab.svg" alt="">
+        </div>
+</div>

@@ -1,0 +1,15 @@
+
+<div class="card" >
+    <div class="left">
+        <app-icon-contact [contact]="contact"></app-icon-contact>
+    </div>
+    <div class="center">
+        <p class="dato" >{{contact.id}}-{{contact.nombre}} {{contact.apellido}}</p>
+        <p class="datoSec" *ngIf="contact.direccion !== ''">{{contact.direccion}}</p>
+        <p class="datoSec" *ngIf="contact.empresa !== ''">Empresa: {{contact.empresa}}</p>
+        <p class="datoSec" *ngIf="contact.email !== ''">{{contact.email}}</p>
+    </div>
+    <div class="right">    
+        <p class="datoTel" *ngIf="contact.telefono !== ''"><span class="cell"><img src="../../../assets/icons/cell.svg" alt=""></span>{{contact.telefono}}</p>
+    </div>
+</div>

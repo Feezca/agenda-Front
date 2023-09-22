@@ -1,0 +1,11 @@
+<div class="agenda">
+    <app-card-contact
+    *ngFor="let contact of contact" 
+    [contact]="contact"
+    [routerLink]="[contact.id]" 
+    ></app-card-contact>
+</div>
+<button (click)="dialogNewContact.showModal()">+</button>
+<dialog method="dialog" #dialogNewContact>
+    <app-new-contact (cerrar)="dialogNewContact.close()"></app-new-contact>
+</dialog>

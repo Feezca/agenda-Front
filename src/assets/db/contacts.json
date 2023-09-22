@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "nombre": "Rick",
+    "apellido": "Sanchez",
+    "direccion": "123 Main St",
+    "email": "rick@example.com",
+    "telefono": "123-456-7890",
+    "empresa": "Smith Industries",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": "2",
+    "nombre": "Morty",
+    "apellido": "Smith",
+    "direccion": "456 Elm St",
+    "email": "morty@example.com",
+    "telefono": "987-654-3210",
+    "empresa": "Smith Industries",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": "3",
+    "nombre": "Jerry",
+    "apellido": "Smith",
+    "direccion": "789 Oak St",
+    "email": "jerry@example.com",
+    "telefono": "555-123-4567",
+    "empresa": "Jerryboree",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": "4",
+    "nombre": "Beth",
+    "apellido": "Sanchez",
+    "direccion": "246 Pine St",
+    "email": "beth@example.com",
+    "telefono": "222-222-2222",
+    "empresa": "Heart Hospital",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=female"
+  },
+  {
+    "id": "5",
+    "nombre": "Summer",
+    "apellido": "Smith",
+    "direccion": "135 Maple St",
+    "email": "summer@example.com",
+    "telefono": "999-999-9999",
+    "empresa": "School",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=female"
+  },
+  {
+    "id": "6",
+    "nombre": "Birdperson",
+    "apellido": "",
+    "direccion": "789 Feather Ave",
+    "email": "birdperson@example.com",
+    "telefono": "777-777-7777",
+    "empresa": "None",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": "7",
+    "nombre": "Squanchy",
+    "apellido": "",
+    "direccion": "246 Squanch St",
+    "email": "squanchy@example.com",
+    "telefono": "888-888-8888",
+    "empresa": "None",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": "8",
+    "nombre": "Mr. Meeseeks",
+    "apellido": "",
+    "direccion": "333 Meeseeks Ln",
+    "email": "meeseeks@example.com",
+    "telefono": "444-444-4444",
+    "empresa": "None",
+    "profileImg":"https://xsgames.co/randomusers/avatar.php?g=male"
+  }
+]
